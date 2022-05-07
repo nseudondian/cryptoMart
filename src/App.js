@@ -23,9 +23,18 @@ const App = () => {
                     </Routes>
                 </div>
             </Layout>
-        </div>
-        <div className="footer">
-
+        
+            <div className="footer" >
+                <Typography.Title level={5} style={{ color:'white', textAlign: 'center'}} >
+                    CryptoMart <br />
+                    All rights reserved
+                </Typography.Title>
+                <space>
+                    <Link to="/" style={{ marginRight:'5px' }}>Home</Link>
+                    <Link to="/exchanges" style={{ marginRight:'5px' }}>Exchanges</Link>
+                    <Link to="/news">News</Link>
+                </space>
+            </div>
         </div>
     </div>
   )
